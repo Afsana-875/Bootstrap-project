@@ -1,0 +1,133 @@
+:root{
+ --font-size:50px;
+ --dark-overlay:rgba(0,0,0,0.7);
+}
+.navbar {
+    background: #123;
+
+.nav-item{
+    padding-left: 1em;
+}
+.nav-link{
+    text-transform: uppercase;
+
+}
+}
+.carousel-item{
+height: 450px;
+
+}
+#homeicon{
+    .fa{
+        font-size: var(--font-size);
+    }
+}
+/* get */
+#getstared{
+    background-image: url(../Images/pc.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+    .dark-overlay{
+       background-color: var(--dark-overlay);
+       position: absolute;
+       top: 0;
+      height: 100%;
+       width: 100%;
+    }
+}
+/* get end*/
+/* youtube */
+#youtubelink{
+    background-image: url(../Images/people.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+    .dark-overlay{
+        background-color: var(--dark-overlay);
+        position: absolute;
+        top: 0;
+       height: 100%;
+        width: 100%;
+     }
+}
+/* youtube  end*/
+/* photo */
+#photo{
+    img{
+        min-height: 220px;
+      
+    }
+}
+/* photo  end*/
+/*  About Page Here */
+#page-header{
+   
+    background-image: url(../Images/image2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#about-main{
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+#icon-section{
+    .fa{
+        font-size:var(--font-size);
+        margin-bottom: 20px;
+    }
+}
+#testimonial{
+    .slick-prev::before{
+        color: blue;
+    }
+    .slick-next::before{
+        color: blue;
+    }
+}
+/*  About Page Here  end*/
+/*   blog Page Here */
+#blog-header{
+   
+    background-image: url(../Images/image2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*  blog Page Here  end*/
+/*  service Page Here */
+#service-header{
+   
+    background-image: url(../Images/image2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*  service Page Here  end*/
+/*  contact Page Here */
+#contact-header{
+   
+    background-image: url(../Images/image2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*  contact Page Here  end*/
+@media screen and(max-width:767px) {
+   .nav-item{
+    padding-left: 0 !important;
+   } 
+}
